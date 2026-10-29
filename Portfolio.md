@@ -4,15 +4,15 @@
 
 Welcome to my personal portfolio repository. This project showcases my technical skills, projects, and professional background. It features a modern, responsive frontend built with vanilla web technologies, powered by a custom Haskell backend API.
 
-## 🚀 About Me
+##  About Me
 I am an IT student (IT500) at Richfield with a strong drive to learn and adapt quickly. My core strength is my willingness to master new technologies and deliver high-quality work in my field of choice. I approach every challenge with discipline and curiosity, focusing on clean code and functional design.
 
-*   📍 **Location:** Bryanston, Sandton
-*   📧 **Email:** [usingaopang@gmail.com](mailto:usingaopang@gmail.com)
-*   💻 **GitHub:** [@usingaopang-prog](https://github.com/usingaopang-prog)
-*   🎓 **Education:** Richfield (IT Student)
+*    **Location:** Bryanston, Sandton
+*    **Email:** [usingaopang@gmail.com](mailto:usingaopang@gmail.com)
+*    **GitHub:** [@usingaopang-prog](https://github.com/usingaopang-prog)
+*    **Education:** Richfield (IT Student)
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 This portfolio demonstrates my proficiency in a variety of technologies:
 
 **Frontend:**
@@ -36,7 +36,7 @@ This portfolio demonstrates my proficiency in a variety of technologies:
 *   **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
 *   **Contact Form:** Client-side validation with simulated submission feedback.
 
-## 📂 Featured Projects
+##  Featured Projects
 Here are some of the projects highlighted in my portfolio:
 
 1.  **Integrated Library System** (`Python`)
