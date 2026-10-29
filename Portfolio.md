@@ -29,7 +29,7 @@ This portfolio demonstrates my proficiency in a variety of technologies:
 *   Git & GitHub (Source Code Management)
 *   VS Code
 
-## ✨ Key Features
+##  Key Features
 *   **Dual-Themed UI:** Features a sleek dark mode with a striking black/red/blue color palette, and an alternative black/orange theme.
 *   **Dynamic Interactions:** Includes a typing effect, magnetic buttons, scroll-reveal animations, and toast notifications.
 *   **Interactive Projects Section:** Project filtering system and dynamic rendering from a backend JSON API.
@@ -50,7 +50,7 @@ Here are some of the projects highlighted in my portfolio:
 5.  **Business Landing Pages** (`HTML`, `CSS`)
     *   Clean, modern, and responsive designs tailored for business needs.
 
-## ⚙️ How to Run This Project Locally
+##  How to Run This Project Locally
 
 ### 1. The Frontend
 Simply open `Opang Usinga's Potifolio.html` (or the main `index.html`) in any modern web browser. The static HTML/CSS/JS files do not require a build step.
@@ -65,7 +65,7 @@ To run the Haskell Scotty server that serves the API endpoints (`/api/profile` a
    ```
 4. The API will be available at `http://localhost:3000/api/projects` and `http://localhost:3000/api/profile`.
 
-## 📫 Let's Connect
+##  Let's Connect
 I am currently open to internships, junior roles, and collaborative projects. Feel free to reach out via [email](mailto:usingaopang@gmail.com) or connect with me on [GitHub](https://github.com/usingaopang-prog).
 
 ---
