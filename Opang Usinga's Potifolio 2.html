@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="profile-area">
+            <img src="1746019733914.jpeg"
+                 alt="Profile Picture"
+                 class="profile-picture">
+
+            <h2 class="logo">My<span>Portfolio</span></h2>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="menuButton" class="menu-button">
+            ☰
+        </button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="intro-text">Hello, my name is</p>
+
+            <h1 id="portfolioName">
+                Opang.Jr Usinga
+            </h1>
+
+            <h2>
+                I am a
+                <span id="typingText"></span>
+            </h2>
+
+            <p class="hero-description">
+                Welcome to my portfolio. Explore my work, skills,
+                projects, and experience.
+            </p>
+
+            <div class="hero-buttons">
+                <button id="viewProjectsButton">
+                    View Projects
+                </button>
+
+                <button id="DownloadCVbutton">
+                    Download CV
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-decoration">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">
+            About <span>Me</span>
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+                <p>
+                    I am a passionate developer who enjoys creating
+                    modern, responsive, and interactive websites.
+                    I enjoy solving problems and learning new
+                    technologies.
+                </p>
+
+                <p>
+                    My goal is to build digital experiences that are
+                    visually attractive, functional, and easy to use.
+                </p>
+
+                <!-- Replace with your GitHub URL -->
+                <a
+                    href="https://github.com/usingaopang-prog"
+                    target="_blank"
+                    class="github-button"
+                >
+                    Visit My GitHub
+                </a>
+            </div>
+
+            <div class="about-stats">
+
+                <div class="stat-card">
+                    <h3 id="projectCounter">0</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3 id="skillCounter">0</h3>
+                    <p>Skills</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3 id="experienceCounter">0</h3>
+                    <p>Years Learning</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark-section">
+
+        <h2 class="section-title">
+            My <span>Skills</span>
+        </h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress html-progress"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress css-progress"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress javascript-progress"></div>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Problem Solving</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress problem-progress"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">
+            My <span>Projects</span>
+        </h2>
+
+        <div class="project-filter">
+            <button class="filter-button active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-button" data-filter="web">
+                Web
+            </button>
+
+            <button class="filter-button" data-filter="javascript">
+                JavaScript
+            </button>
+
+            <button class="filter-button" data-filter="WIL.projects">
+                WIL projects
+            </button>
+
+
+        </div>
+
+
+        <div id="projectsContainer" class="projects-container">
+            <!-- Projects are generated using JavaScript -->
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <!-- WhatsApp Contact Button -->
+<a href="https://wa.me/27725752351?text=Hello%20I%20have%20a%20question%20about%20your%20services" 
+   target="_blank" 
+   style="display: inline-block; padding: 12px 24px; background: #25D366; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+        alt="WhatsApp" 
+        style="width: 20px; height: 20px; vertical-align: middle; margin-right: 10px;">
+   Chat with us on WhatsApp
+</a>
+
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-info">
+
+                <h2>Opang.Jr<span>Usinga</span></h2>
+
+                <p>
+                    Building modern and interactive digital experiences.
+                </p>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Contact Information</h3>
+
+                <p>
+                    📧 Email:
+                    usingaopang@gmail.com
+                </p>
+
+                <p>
+                    📱 Phone:
+                    +27 82 575 2351
+                </p>
+
+                <p>
+                    📍 Location:
+                    Bryanstan,Sandton
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                © <span id="currentYear"></span>
+            Opang.Jr  Usinga . All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+
+    <script src="script 2.js"></script>
+
+</body>
+</html>
