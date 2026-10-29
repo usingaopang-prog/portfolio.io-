@@ -1,7 +1,3 @@
-Here is a professional `README.md` for your GitHub profile, abstracted from the code files you provided (HTML, CSS, JavaScript, and the Haskell backend). It highlights your skills, your portfolio's features, and the projects listed in your code.
-
-***
-
 # Opang Usinga — Portfolio
 
 > **IT Student at Richfield** | Web Developer | Based in Bryanston, Sandton
